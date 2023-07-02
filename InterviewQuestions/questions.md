@@ -129,32 +129,92 @@
 1.  What're the components of React?
    - Components are the building blocks of any React application, and a single app usually consists of multiple components. A component is essentially a piece of the user interface. It splits the user interface into independent, reusable parts that can be processed separately.
    - There are two types of components in React:
-     - Functional Components: These types of components have no state of their own and only contain render methods, and therefore are also called stateless components. They may derive data from other components as props (properties).
-     - 
+     - **FunctionalComponents**: These types of components have no state of their own and only contain render methods, and therefore are also called **stateless components**. They may derive data from other components as props (properties).
+        ```js
+        function Greeting(props){
+            return
+                <h1>
+                    Welcome to {props.name}
+                </h1>
+        }
+        ```
+     - **ClassComponents**: These types of components can hold and manage their own state and have a separate render method to return JSX on the screen. They are also called **Stateful components** as they can have a state.
+        ```js
+        class Greeting extends React.Component{
+            render(){
+                return
+                    <h1>
+                        Welcome to {this.props.name}
+                    </h1>
+            }
+        }
+        ```
 2.  What's the use of render() in React?
+   - It is required for each component to have a render() function. This function returns the HTML, which is to be displayed in the component.
+   - If you need to render more than one element, all of the elements must be inside one parent tag like <div>, <form>.
+
 3.  What's a state in React?
+   - The state is a built-in React object that is used to contain data or information about the component. The state of a component can change over time, and whenever it changes, the component re-renders.
+   - The change in state can happen as a response to user action or system-generated events. It determines the behavior of the component and how it will render.
 4.  How do you implement state in React?
+   
+    ![state holds](../resources/state-holds.jpeg)
+
 5.  How do you update the state of a component?
+   - We can update the state of a component by using the built-in ‘setState()’ method.set
+
+    ![setState](../resources/setState.jpeg)
+
 6.  What're props in React?
+   - Props are short for Properties. It is a React built-in object that stores the value of attributes of a tag and works similarly to HTML attributes.
+   - Props provide a way to pass data from one component to another component. Props are passed to the component in the same way as arguments are passed in a function.
+
 7.  How do you pass props between components?
 8.  What're the differences between state and props?
+   
+   |      | State | Props |
+   | :--- | :--- | :--- |
+   | Use | Holds information about the components | Allows to pass data from one component to other components as an argument |
+   | Mutability | Mutable | Immutable |
+   | Child Components | Child components cannot access | Child component can access |
+   | Stateless Components | Cannot have a sate | Can have props |
+   
 9.  What's a higher-order component in React?
-10. How can you embed two or more components into one?
-11. What're the differences between class and functional components?
-12. Explain the lifecycle methods of components.
+- A higher-order component acts as a container for other components. This helps to keep components simple and enables re-usability. They are generally used when multiple components have to use a common logic. 
+  
+1.    What're the differences between class and functional components?
+
+   |      | Class Components | Functional Components |
+   | --- | --- | --- |
+   | State | Can hold or manage state | Cannot hold or manage state |
+   | Simplicity | Complex | Simple |
+   | Lifecycle | Can work with all lifecycle methods | Doesn't work with any lifecycle method |
 
 # Redux Questions
-31. What's Redux?
-32. What're the components of Redux?
-33. What's the Flux?
-34. How is Redux different from Flux?
+1. What's Redux?
+   - Redux is an open-source, JavaScript library used to manage the application state. React uses Redux to build the user interface. It is a predictable state container for JavaScript applications and is used for the entire application’s state management.
+2. What're the components of Redux?
+   - **Store**: Holds the state of the application.
+   - **Action**: The source information for the store.
+   - **Reduce**: Specifies how the application's state changes in response to actions sent to the store.
+  
+  ![Redux](../resources/redux.jpeg)
+
+3. What's the Flux?
+   - Flux is the application architecture that Facebook uses for building web applications. It is a method of handling complex data inside a client-side application and manages how data flows in a React application.
+   - There is a single source of data (the store) and triggering certain actions is the only way to update them. The actions call the dispatcher, and then the store is triggered and updated with their data accordingly.
+   - When a dispatch has been triggered, and the store updates, it will emit a change event that the views can rerender accordingly.
+
+![Redux](../resources/action-3.jpeg)    
+
+4. How is Redux different from Flux?
 
 # Router Questions
-35. What's React Router?
-36. Why do we need to React Router?
-37. How is React routing different from conventional routing?
-38. How do you implement React routing?
+1. What's React Router?
+2. Why do we need to React Router?
+3. How is React routing different from conventional routing?
+4. How do you implement React routing?
 
 # Styling Questions
-39. How do you style React components?
-40. Explain the use of CSS modules in React.
+1. How do you style React components?
+2. Explain the use of CSS modules in React.
