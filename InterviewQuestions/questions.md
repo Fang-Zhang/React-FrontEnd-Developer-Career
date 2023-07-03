@@ -151,7 +151,7 @@
         ```
 2.  What's the use of render() in React?
    - It is required for each component to have a render() function. This function returns the HTML, which is to be displayed in the component.
-   - If you need to render more than one element, all of the elements must be inside one parent tag like <div>, <form>.
+   - If you need to render more than one element, all of the elements must be inside one parent tag, like <div>, <form>.
 
 3.  What's a state in React?
    - The state is a built-in React object that is used to contain data or information about the component. The state of a component can change over time, and whenever it changes, the component re-renders.
@@ -209,10 +209,28 @@
 
 4. How is Redux different from Flux?
 
+| SN | Redux | Flux |
+| --- | --- | --- |
+| 1 | Open-Source library | Flux is an architecture, not a framework or library |
+| 2 | Store's state is immutable | Store's state is mutable |
+| 3 | Only single-store | Multiple Stores |
+| 4 | Use concept of reducer | Use concept of dispatcher |
+
 # Router Questions
 1. What's React Router?
+   - React Router is a routing library built on top of React, which is used to create routes in a React application.
 2. Why do we need to React Router?
+   - It maintains consistent structure and behavior and is used to develop single-page web applications.
+   - Enables multiple views in a single application by defining multiple routes in the React application.
 3. How is React routing different from conventional routing?
+   
+    | SN | React Routing | Conventional Routing |
+    | --- | --- | ---|
+    | 1 | Single HTML Page | Each view is a new HTML file |
+    | 2 | The user navigates multiple views in the same file | The user navigates multiple files for each view |
+    | 3 | The page doesn't refresh since it's a single file | The page refreshes every time user navigates |
+    | 4 | Improved performance | Slower performance |
+
 4. How do you implement React routing?
 
 # Styling Questions
