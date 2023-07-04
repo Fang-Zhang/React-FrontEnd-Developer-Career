@@ -1,24 +1,30 @@
+# React 16 Tooling
+
+
 1. Creating a personalized React development ecosystem
    - What's included with React Components that compare render trees
-     - The DOM render target
+     - Two core React packages
+       - React (Render Tree or VirtualDOM)
+       - react-dom
    - Introducing tooling
      - Ancillary tasks outside of React
+       - It's easier to deploy apps that depend on a simple library instead of a framework where all batteries are included
+       - It's easier to think about application development when you have tools that stay out of the way for the most part
      - A construction site analogy
    - React tooling covered in this book
-     - JSX needs to be compiled into Javascript
-     - Newer Javascript language features need to be transpired
-     - How module loading enables application development
-     - Running unit tests automatically
-     - Thinking about the type-safety
-     - Linting for code quality
-     - Isolating component development environments
-     - Providing a browser-based debugging environment
-     - Deploying React applications
+     - JSX needs to be compiled into Javascript (Babel)
+     - Newer Javascript language features need to be transpired (Babel is compatible with ECMAScript)
+     - How module loading enables application development (HMR: Hot Module Replacement from Webpack)
+     - Running unit tests automatically (Jest)
+     - Thinking about the type-safety (Flow Tool)(TypeScript)
+     - Linting for code quality (ESLint)([Airbnb's standard](https://github.com/airbnb/javascript))
+     - Isolating component development environments (Storybook)
+     - Providing a browser-based debugging environment (Browser Developer Tools)
+     - Deploying React applications (DevOps Pipeline)(Docker)
    - Choosing the right tools
      - Essential tools
      - Optional tools
 2. Efficiently bootstrapping React application with Create React App
-   - Installing Create React App
 3. Development mode and mastering hot reloading
    - Starting the development server
      - Webpack configuration
@@ -34,7 +40,7 @@
    - The driving philosophy of Jest
      - Mock everything except the application code
      - Isolating test and run in parallel
-       - Test should feel natural
+       - Testing should feel natural
    - Running Tests
      - Running tests using react-scripts
      - Running tests using standalone Jest
@@ -50,7 +56,7 @@
        - React Component snapshots
      - Unit test coverage
 5. Streamlining development and refactoring with Type-Safe React components
-   - What does type-safty solve?
+   - What does type-safety solve?
      - Replacing guesswork with assurance
      - Removing runtime checks
      - Obvious low-severity bugs
