@@ -16,7 +16,7 @@
      - Newer Javascript language features need to be transpired (Babel is compatible with ECMAScript)
      - How module loading enables application development (**[HMR](https://webpack.js.org/guides/hot-module-replacement/)**: Hot Module Replacement from Webpack)
      - Running unit tests automatically (**[Jest](https://jestjs.io/docs/getting-started)**)
-     - Thinking about the type-safety (**Flow Tool**)(TypeScript)
+     - Thinking about the type-safety (**[React Flow](https://flow.org/en/docs/getting-started/)**)(TypeScript)
      - Linting for code quality (**[ESLint](https://eslint.org/docs/latest/)**)([Airbnb's standard](https://github.com/airbnb/javascript))
      - Isolating component development environments (**[Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/)**)
      - Providing a browser-based debugging environment (**[Browser Developer Tools](https://developer.chrome.com/docs/devtools/)**)
@@ -34,9 +34,9 @@
      - Loading and compiling files
      - Configuring plugins
      - Hot reloading
-   - Hot component reloading in action
-   - Ejecting from Create React App
-4. Optimizing Test-Driven React Development
+   - Hot component reloading in action(**[React Hot Loader](https://github.com/gaearon/react-hot-loader)**)(React-Hot-Loader is expected to be replaced by **React Fast Refresh**.)
+   - Ejecting from Create React App ([npm run eject](https://create-react-app.dev/docs/available-scripts/))([Everything you need to know about react-scripts](https://blog.logrocket.com/everything-you-need-know-about-react-scripts/))
+4. Optimizing Test-Driven React Development ([Jest](https://jestjs.io/docs/getting-started))
    - The driving philosophy of Jest
      - Mock everything except the application code
      - Isolating test and run in parallel
@@ -55,7 +55,7 @@
        - Asynchronous assertions
        - React Component snapshots
      - Unit test coverage
-5. Streamlining development and refactoring with Type-Safe React components
+5. Streamlining development and refactoring with Type-Safe React components ([React Flow](https://flow.org/en/docs/getting-started/))
    - What does type-safety solve?
      - Replacing guesswork with assurance
      - Removing runtime checks
@@ -74,13 +74,13 @@
      - Validating event handler functions
      - Bringing Flow into the development server
      - Bringing Flow into your editor
-6. Enforcing code quality to improve maintainability
+6. Enforcing code quality to improve maintainability ([ESLint](https://eslint.org/docs/latest/))
    - Installing and configuring ESLint
-   - Building on Airbnb standards
+   - Building on Airbnb standards ([Airbnb's standard](https://github.com/airbnb/javascript))
    - Adding React plugins to ESLint
    - Using ESLint with create-react-app
    - Using ESLint in a code editor
-   - Automating code formatting with Prettier
+   - Automating code formatting with Prettier ([Prettier](https://prettier.io/docs/en/index.html))
 7. Isolating components with storybook
    - The need for isolated component development
    - Installing and configuring Storybook
