@@ -90,7 +90,7 @@
      - Linking stories together
      - Stories as documentation
    - Building static Storybook apps
-8. Debugging Components in the Browser
+8. Debugging Components in the Browser ([Browser Developer Tools](https://developer.chrome.com/docs/devtools/))
    - Installing the React Developer Tools add-on
    - Working with React elements in React Developer Tools
      - Selecting React elements
@@ -100,14 +100,14 @@
    - Profiling component performance
      - Removing reconciliation work
      - Finding CPU-intensive components
-9.  Instrumenting application state with Redux
+9.  Instrumenting application state with [Redux](https://redux.js.org/introduction/getting-started)
     - Building a Redux app
       - The App component and state
       - The Home component and state
       - The NewBook component and state
       - The API abstraction
       - Putting it all together
-    - Installing Redux DevTools
+    - Installing [Redux DevTools](https://github.com/reduxjs/redux-devtools)
     - Selecting and examining actions
       - Action data
       - Action state trees and charts
