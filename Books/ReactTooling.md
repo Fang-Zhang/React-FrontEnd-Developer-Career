@@ -12,30 +12,33 @@
        - It's easier to think about application development when you have tools that stay out of the way for the most part
      - A construction site analogy
    - React tooling covered in this book
-     - JSX needs to be compiled into Javascript (Babel)
+     - JSX needs to be compiled into Javascript (**Babel**)
      - Newer Javascript language features need to be transpired (Babel is compatible with ECMAScript)
-     - How module loading enables application development (HMR: Hot Module Replacement from Webpack)
-     - Running unit tests automatically (Jest)
-     - Thinking about the type-safety (Flow Tool)(TypeScript)
-     - Linting for code quality (ESLint)([Airbnb's standard](https://github.com/airbnb/javascript))
-     - Isolating component development environments (Storybook)
-     - Providing a browser-based debugging environment (Browser Developer Tools)
-     - Deploying React applications (DevOps Pipeline)(Docker)
+     - How module loading enables application development (**HMR**: Hot Module Replacement from Webpack)
+     - Running unit tests automatically (**Jest**)
+     - Thinking about the type-safety (**Flow Tool**)(TypeScript)
+     - Linting for code quality (**ESLint**)([Airbnb's standard](https://github.com/airbnb/javascript))
+     - Isolating component development environments (**Storybook**)
+     - Providing a browser-based debugging environment (**Browser Developer Tools**)
+     - Deploying React applications (DevOps Pipeline)(**Docker**)
    - Choosing the right tools
      - Essential tools
      - Optional tools
-2. Efficiently bootstrapping React application with Create React App
-3. Development mode and mastering hot reloading
+2. Efficiently bootstrapping React application with Create React App (**create-react-app**)
+3. Development mode and mastering hot reloading (**react-scripts package**)
+   
+   [Details are here](https://create-react-app.dev/docs/getting-started)
+   
    - Starting the development server
-     - Webpack configuration
-       - Entry points
-       - Build output
-       - Resolving input files
-       - Loading and compiling files
-       - Configuring plugins
-       - Hot reloading
-     - Hot component reloading in action
-     - Ejecting from Create React App
+   - Webpack configuration
+     - Entry points
+     - Build output
+     - Resolving input files
+     - Loading and compiling files
+     - Configuring plugins
+     - Hot reloading
+   - Hot component reloading in action
+   - Ejecting from Create React App
 4. Optimizing Test-Driven React Development
    - The driving philosophy of Jest
      - Mock everything except the application code
