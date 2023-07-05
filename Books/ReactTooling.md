@@ -81,8 +81,8 @@
    - Using ESLint with create-react-app
    - Using ESLint in a code editor
    - Automating code formatting with Prettier ([Prettier](https://prettier.io/docs/en/index.html))
-7. Isolating components with storybook
-   - The need for isolated component development
+7. Isolating components with Storybook ([Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/))
+   - The need for isolated component development([JSFiddle](https://jsfiddle.net), [JSBin](https://jsbin.com))
    - Installing and configuring Storybook
    - Developing components with stories
      - Experimenting with props
