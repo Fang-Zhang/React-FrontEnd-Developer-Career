@@ -12,23 +12,20 @@
        - It's easier to think about application development when you have tools that stay out of the way for the most part
      - A construction site analogy
    - React tooling covered in this book
-     - JSX needs to be compiled into Javascript (**Babel**)
+     - JSX needs to be compiled into Javascript (**[Babel](https://babeljs.io/docs/)**)
      - Newer Javascript language features need to be transpired (Babel is compatible with ECMAScript)
-     - How module loading enables application development (**HMR**: Hot Module Replacement from Webpack)
-     - Running unit tests automatically (**Jest**)
+     - How module loading enables application development (**[HMR](https://webpack.js.org/guides/hot-module-replacement/)**: Hot Module Replacement from Webpack)
+     - Running unit tests automatically (**[Jest](https://jestjs.io/docs/getting-started)**)
      - Thinking about the type-safety (**Flow Tool**)(TypeScript)
-     - Linting for code quality (**ESLint**)([Airbnb's standard](https://github.com/airbnb/javascript))
-     - Isolating component development environments (**Storybook**)
-     - Providing a browser-based debugging environment (**Browser Developer Tools**)
+     - Linting for code quality (**[ESLint](https://eslint.org/docs/latest/)**)([Airbnb's standard](https://github.com/airbnb/javascript))
+     - Isolating component development environments (**[Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/)**)
+     - Providing a browser-based debugging environment (**[Browser Developer Tools](https://developer.chrome.com/docs/devtools/)**)
      - Deploying React applications (DevOps Pipeline)(**Docker**)
    - Choosing the right tools
      - Essential tools
      - Optional tools
-2. Efficiently bootstrapping React application with Create React App (**create-react-app**)
-3. Development mode and mastering hot reloading (**react-scripts package**)
-   
-   [Details are here](https://create-react-app.dev/docs/getting-started)
-   
+2. Efficiently bootstrapping React application with Create React App (**[create-react-app](https://create-react-app.dev/docs/getting-started)**)
+3. Development mode and mastering hot reloading (**[react-scripts](https://create-react-app.dev/docs/available-scripts) package**)
    - Starting the development server
    - Webpack configuration
      - Entry points
