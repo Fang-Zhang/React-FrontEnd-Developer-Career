@@ -5,3 +5,7 @@
 [Questions](./InterviewQuestions/questions.md)
 
 ## Some Awesome Books
+
+[React Cookbook](./Books/ReactCookbook.md)
+[React Router](./Books/ReactRouter.md)
+[React Tooling](./Books/ReactTooling.md)
