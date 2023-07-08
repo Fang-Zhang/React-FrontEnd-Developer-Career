@@ -6,6 +6,6 @@
 
 ## Some Awesome Books
 
-[React Cookbook](./Books/ReactCookbook.md)
-[React Router](./Books/ReactRouter.md)
-[React Tooling](./Books/ReactTooling.md)
+[React Cookbook](./Books/ReactCookbook.md) <br>
+[React Router](./Books/ReactRouter.md) <br>
+[React Tooling](./Books/ReactTooling.md) <br>
