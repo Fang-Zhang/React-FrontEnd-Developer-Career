@@ -236,3 +236,9 @@
 # Styling Questions
 1. How do you style React components?
 2. Explain the use of CSS modules in React.
+
+# Terminology
+**Props**: Props are used to pass data from a parent component to a child component. Props are immutable and cannot be changed within a component.
+**State**: State is used to manage data within a component. State is mutable and can be updated using the setState function.
+
+**Hooks**: Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don't work inside classes. (Which allow us to reuse the stateful logic between components)
