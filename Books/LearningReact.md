@@ -26,7 +26,7 @@
      - Object Literal Enhancement
      - The Spread Operator
    - Asynchronous JavaScript
-     - Simple Promises with Fetch
+     - Simple Promises with Fetch [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
      - Async/Await
      - Building Promises
    - Classes
