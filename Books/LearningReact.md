@@ -11,12 +11,14 @@
 2. JavaScript for React
    - Declaring Variables
      - The const keyword
-     - The let keyword
+     - The let keyword [Differences of var/let/const](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
      - Template Strings
    - Creating Functions
-     - Function Declarations
-     - Function Expressions
+     - Function Declarations (Start with "function" keyword) (hoisted)
+     - Function Expressions (Create a function as a variable)
      - Arrow Functions
+       - Returning Objects
+       - Arrow Function and Scrop
    - Compiling JavaScript
    - Objects and Arrays
      - Destructuring Objects
