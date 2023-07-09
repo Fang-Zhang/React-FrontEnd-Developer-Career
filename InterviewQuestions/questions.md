@@ -250,3 +250,4 @@ props vs state <br>
 - var: variable which could be overwritten <br>
 - const: variable which could not be overwritten <br>
 [Rest Operator vs Spread Operator](https://www.freecodecamp.org/news/javascript-rest-vs-spread-operators/)
+[Proposal for Rest/Spread Operator](https://github.com/tc39/proposal-object-rest-spread)
