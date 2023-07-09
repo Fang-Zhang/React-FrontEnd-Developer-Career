@@ -242,3 +242,11 @@
 **State**: State is used to manage data within a component. State is mutable and can be updated using the setState function.
 
 **Hooks**: Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don't work inside classes. (Which allow us to reuse the stateful logic between components)
+
+# Comparasion
+
+props vs state <br>
+var vs let vs const <br>
+var: variable which could be overwritten <br>
+const: variable which could not be overwritten <br>
+[Difference](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)

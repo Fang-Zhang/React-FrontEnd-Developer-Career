@@ -151,21 +151,21 @@
 
 
 # React Library
+## React Core
+
 ## UI library (Specific Component)
 - [MUI](https://mui.com/)
 - [Ant Design](https://ant.design/)
 - [React Bootstrap](https://react-bootstrap.github.io/)
 
-## React Core
-
-## React Outside
+## Outside Tools
 - Redux
 - Router
 - Jest
 - Babel
 - Webpack
 
-# React Patterns
+# Design Patterns
 - [React Patterns](https://reactpatterns.com/)
 - [Overview of React](https://www.patterns.dev/posts/reactjs)
 - [React Design Patterns](https://blog.logrocket.com/react-design-patterns/)
