@@ -148,3 +148,26 @@
     - Server REndering with Next.JS
     - Gatsby
     - React in the Funture
+
+
+# React Library
+## UI library (Specific Component)
+- [MUI](https://mui.com/)
+- [Ant Design](https://ant.design/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+
+## React Core
+
+## React Outside
+- Redux
+- Router
+- Jest
+- Babel
+- Webpack
+
+# React Patterns
+- [React Patterns](https://reactpatterns.com/)
+- [Overview of React](https://www.patterns.dev/posts/reactjs)
+- [React Design Patterns](https://blog.logrocket.com/react-design-patterns/)
+- [React Design Patterns 2](https://aglowiditsolutions.com/blog/react-design-patterns/)
+- [React Patterns Video Tutorial](https://www.youtube.com/watch?v=iOSKV2rmj-A)
