@@ -252,5 +252,11 @@ props vs state <br>
 [Rest Operator vs Spread Operator](https://www.freecodecamp.org/news/javascript-rest-vs-spread-operators/) <br>
 [Proposal for Rest/Spread Operator](https://github.com/tc39/proposal-object-rest-spread) <br>
 <br>
+<br>
 Imperative (statement) vs Declarative (expression) <br> [Imperative vs Declarative](https://medium.com/weekly-webtips/imperative-vs-declarative-programming-in-javascript-25511b90cdb7) <br>
 [How to write a declarative js promise wrapper](https://blog.logrocket.com/write-declarative-javascript-promise-wrapper/#:~:text=Declarative programming can be achieved,to iterate over an array.)
+<br>
+<br>
+[Regular Expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)<br>
+<br>
+<br>

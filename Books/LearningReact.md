@@ -34,7 +34,7 @@
      - CommonJS
 3. Functional Programming with JavaScript
    - What It Means to Be Functional
-   - Imperative Versus Declarative
+   - Imperative (How) Versus Declarative (What)
    - Functional Concepts
      - Immutability
      - Pure Functions
