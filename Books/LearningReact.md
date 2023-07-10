@@ -16,7 +16,7 @@
    - Creating Functions
      - Function Declarations (Start with "function" keyword) (hoisted)
      - Function Expressions (Create a function as a variable)
-     - Arrow Functions
+     - Arrow Functions [Arrow Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
        - Returning Objects
        - Arrow Function and Scrop
    - Compiling JavaScript
@@ -24,11 +24,11 @@
      - Destructuring Objects
      - Destructuring Arrays
      - Object Literal Enhancement
-     - The Spread Operator
+     - The Spread Operator [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
    - Asynchronous JavaScript
      - Simple Promises with Fetch [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
-     - Async/Await
-     - Building Promises
+     - Async/Await [Asynchronous](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous)
+     - Building Promises [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
    - Classes
    - ES6 Modules
      - CommonJS
