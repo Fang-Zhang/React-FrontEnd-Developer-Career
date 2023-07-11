@@ -154,6 +154,8 @@
 
 # React Library
 ## React Core
+- React
+- React-DOM
 
 ## UI library (Specific Component)
 - [MUI](https://mui.com/)
@@ -173,3 +175,10 @@
 - [React Design Patterns](https://blog.logrocket.com/react-design-patterns/)
 - [React Design Patterns 2](https://aglowiditsolutions.com/blog/react-design-patterns/)
 - [React Patterns Video Tutorial](https://www.youtube.com/watch?v=iOSKV2rmj-A)
+
+# How React Works
+- [React Deep Dive](https://www.youtube.com/watch?v=7YhdqIR2Yzo&list=PLxRVWC-K96b0ktvhd16l3xA6gncuGP7gJ&index=1)
+- [React Hooks](https://www.youtube.com/watch?v=IoNZLdvjRqE&list=PLxRVWC-K96b2KrTW6AqAE6vUXfOTnD-PS)
+
+# Next.js
+- [Why Use Next.js](https://www.youtube.com/watch?v=zXjxpJOJ8QI&list=PLxRVWC-K96b3qWv0z8uDnOyINSsURJ-Rj)
