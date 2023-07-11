@@ -34,12 +34,12 @@
      - CommonJS
 3. Functional Programming with JavaScript
    - What It Means to Be Functional
-   - Imperative (How) Versus Declarative (What)
+   - Imperative (How) Versus Declarative (What) [React is declarative](https://egghead.io/blog/wtf-is-declarative-programming)
    - Functional Concepts
      - Immutability
      - Pure Functions
      - Data Transformations
-     - Higher-Order Functions
+     - Higher-Order Functions [Currying](https://www.freecodecamp.org/news/playing-around-with-closures-currying-and-cool-abstractions/)
      - Recursion
      - Composition
      - Putting It All Together
