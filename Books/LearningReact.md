@@ -1,5 +1,6 @@
 # Learning React
 ## Modern Patterns for Developing Apps
+[Source Code](https://github.com/MoonHighway/learning-react/tree/second-edition)
 
 1. Welcome to React
    - A Strong Foundation
@@ -179,7 +180,6 @@
 # How React Works
 - [React Deep Dive](https://www.youtube.com/watch?v=7YhdqIR2Yzo&list=PLxRVWC-K96b0ktvhd16l3xA6gncuGP7gJ&index=1)
 - [React Hooks](https://www.youtube.com/watch?v=IoNZLdvjRqE&list=PLxRVWC-K96b2KrTW6AqAE6vUXfOTnD-PS)
-- [How-React-Works-Behind-the-Scenes](https://dev.to/amrtcrypto/how-react-works-behind-the-scenes-5e4k#:~:text=React uses the key to match the virtual DOM node,updates the changed DOM nodes.)
 - [What's the React](https://www.hostinger.com/tutorials/what-is-react)
 - [How React Work under the Hooks](https://www.freecodecamp.org/news/react-under-the-hood/)
 
