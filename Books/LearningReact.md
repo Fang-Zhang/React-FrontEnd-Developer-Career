@@ -71,7 +71,7 @@
      - Sending State Down a Component Tree
      - Sending Interactions Back up a Component Tree
    - Building Forms
-     - Using Refs
+     - Using Refs [useRef](https://react.dev/reference/react/useRef) [React-useRef](https://dmitripavlutin.com/react-useref/)
      - Controlled Components
      - Creating Custom Hooks
      - Adding Colors to State
@@ -81,12 +81,12 @@
      - Stateful Context Providers
      - Custom Hooks with Context
 7. Enhancing Components with Hooks
-   - Introducing useEffect
-     - The Dependency Array
+   - Introducing useEffect [useEffect](https://react.dev/reference/react/useEffect)
+     - The Dependency Array 
      - Deep Checking Dependencies
-     - When to useLayoutEffect
+     - When to useLayoutEffect [useLayout](https://react.dev/reference/react/useLayoutEffect)
      - Rules to Follow with Hooks
-     - Improving Code with useReducer
+     - Improving Code with useReducer [useReducer](https://react.dev/reference/react/useReducer)
      - useReducer to Handle Complex State
      - Improving Component Performance
      - shouldComponentUpdate and PureComponent
