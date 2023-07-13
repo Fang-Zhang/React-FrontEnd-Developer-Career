@@ -157,6 +157,10 @@
 ## React Core
 - React
 - React-DOM
+- React-Scripts
+  - Webpack
+  - Babel
+  - ESLint
 
 ## UI library (Specific Component)
 - [MUI](https://mui.com/)
