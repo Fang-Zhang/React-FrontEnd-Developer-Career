@@ -148,7 +148,7 @@
     - Isomorphic Versus Universal
       - Client and Server Domains
     - Server Rendering React [CSR vs SSR](https://yudhajitadhikary.medium.com/client-side-rendering-vs-server-side-rendering-in-react-js-next-js-b74b909c7c51)
-    - Server Rendering with Next.JS
+    - Server Rendering with Next.JS [Next.js](https://nextjs.org/)
     - Gatsby
     - React in the Funture
 
@@ -168,7 +168,7 @@
 - [React Bootstrap](https://react-bootstrap.github.io/)
 
 ## Outside Tools
-- Redux
+- Redux [Redux vs useReducer](https://www.frontendmag.com/tutorials/usereducer-vs-redux/#:~:text=Comparison of useReducer vs Redux,-Now that we&text=They both allow for complex,the ability to combine reducers.)
 - Router
 - Jest
 - Babel
