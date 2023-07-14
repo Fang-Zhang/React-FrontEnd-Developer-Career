@@ -147,8 +147,8 @@
 12. React and the Server
     - Isomorphic Versus Universal
       - Client and Server Domains
-    - Server Rendering React
-    - Server REndering with Next.JS
+    - Server Rendering React [CSR vs SSR](https://yudhajitadhikary.medium.com/client-side-rendering-vs-server-side-rendering-in-react-js-next-js-b74b909c7c51)
+    - Server Rendering with Next.JS
     - Gatsby
     - React in the Funture
 
