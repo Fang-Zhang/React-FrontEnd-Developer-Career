@@ -121,24 +121,24 @@
       - Building Suspenseful Data Sources
       - Fiber
 10.  React Testing
-    - ESLint
-      - ESLint Plug-Ins
-    - Prettier
-      - Configuring Prettier by Project
+    - ESLint [ESLint](https://eslint.org/docs/latest/use/getting-started)
+      - ESLint Plug-Ins [ESLint-Plugin-React-Hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks) [ESLint-Plugin-JSX-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y) [Awesome-ESLint](https://github.com/dustinspecker/awesome-eslint)
+    - Prettier [Prettier](https://prettier.io/docs/en/index.html)
+      - Configuring Prettier by Project 
       - Prettier in VSCode
     - Typechecking for React Applications
-      - PropTypes
-      - Flow
-      - TypeScript
-    - Test-Driven Development
+      - Prop-Types Library [prop-types](https://www.npmjs.com/package/prop-types)
+      - Flow Library [Flow](https://www.npmjs.com/package/flow-bin) [Flow Config](https://flow.org/en/docs/config/)
+      - TypeScript Language [TypeScript](https://www.typescriptlang.org/docs/) [CheatSheet](https://github.com/typescript-cheatsheets/react)
+    - Test-Driven Development [TDD](https://en.wikipedia.org/wiki/Test-driven_development)
       - TDD and Learning
-    - Incorporating Jest
+    - Incorporating Jest [Jest](https://jestjs.io/)
       - Create React APP and Testing
     - Testing React Components
       - Queries
       - Testing Events
-      - Using Code Coverage
-11. React Router
+      - Using Code Coverage [Unit Test](https://martinfowler.com/bliki/UnitTest.html) [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html)
+11. React Router [React Router](https://reactrouter.com/en/main/start/overview)
     - Incorporating the Router
     - Router Properties
       - Nesting Routes
