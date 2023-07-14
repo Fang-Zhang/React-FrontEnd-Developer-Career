@@ -168,7 +168,7 @@
 - [React Bootstrap](https://react-bootstrap.github.io/)
 
 ## Outside Tools
-- Redux [Redux vs useReducer](https://www.frontendmag.com/tutorials/usereducer-vs-redux/#:~:text=Comparison of useReducer vs Redux,-Now that we&text=They both allow for complex,the ability to combine reducers.)
+- Redux [Redux vs useReducer](https://www.frontendmag.com/tutorials/usereducer-vs-redux/#:~:text=Comparison) [Redux](https://redux.js.org/) [useContext+useReducer vs Redux](https://dev.to/eswaraprakash/react-usecontext-and-usereducer-hooks-2pkm)
 - Router
 - Jest
 - Babel
