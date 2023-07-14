@@ -88,7 +88,7 @@
      - Rules to Follow with Hooks
      - Improving Code with useReducer [useReducer](https://react.dev/reference/react/useReducer)
      - useReducer to Handle Complex State
-     - Improving Component Performance
+     - Improving Component Performance [useMemo](https://react.dev/reference/react/useMemo) [useCallback](https://react.dev/reference/react/useCallback) [useMemo vs useCallback](https://medium.com/@jan.hesters/usecallback-vs-usememo-c23ad1dc60)
      - shouldComponentUpdate and PureComponent
      - When to Refactor
 8. Incorporating Data
@@ -96,7 +96,7 @@
      - Sending Data with a Request
      - Uploading Files with fetch
      - Authorized Requests
-     - Saving Data Locally
+     - Saving Data Locally [Using localstorage](https://blog.logrocket.com/using-localstorage-react-hooks/) [useLocalstorage](https://usehooks.com/uselocalstorage)
      - Handling Promise States
    - Render Props
    - Virtualized Lists
