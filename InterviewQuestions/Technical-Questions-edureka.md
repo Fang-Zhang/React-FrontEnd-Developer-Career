@@ -51,6 +51,8 @@
   - Components can refer to other components in their output
   - React DOM takes care of updating the DOM to match the React elements
 - What is the difference between state and props?
+- React Elements vs React Components
+- React Element vs DOM Element
 ### React.js Component Questions
 ### React.js Redux Questions
 ### React.js Hooks Questions
