@@ -53,11 +53,173 @@
 - What is the difference between state and props?
 - React Elements vs React Components
 - React Element vs DOM Element
+- Why can't browsers read JSX?
+  - JSX isn't a regular JavaScript, browsers can only read JavaScript objects
+  - Babel converts JSX into JavaScript objects
+- How are errors handled in React.js
+  - React uses error boundaries to handle errors
+  - Error boundaries are components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed
+  - Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them
 ### React.js Component Questions
+- What is a React.js component?
+  - Components are the building blocks of any React application
+  - Components are the heart of React's powerful, declarative programming model
+  - Components are independent and reusable bits of code
+  - Components can be defined as class-based or functional components
+- What are the different phases of React.js component's lifecycle?
+  - Initialization
+  - Mounting
+  - Updating
+  - Unmounting
+- What is the difference between a class component and functional component?
+  - Class components are ES6 classes that extend from React.Component
+  - Functional components are functions
+  - Class components can have state, functional components can't
+  - Class components have a render method, functional components don't
+  - Class components can have refs, functional components can't
+  - Class components can have context, functional components can't
+  - Class components can have lifecycle methods, functional components can't
+- What do you understand from "In React, everything is a component"?
+  - Components are the building blocks of any React application
+  - Components are the heart of React's powerful, declarative programming model
+  - Components are independent and reusable bits of code
+  - Components can be defined as class-based or functional components
+- Explain the purpose of render() in React.js
+  - render() is the most important method in a React Component
+  - render() function returns a React element which is a lightweight description of what to render
+  - render() function is a must for every React component
+  - render() function should be pure, meaning that it does not modify component state, it returns the same result each time it's invoked, and it does not directly interact with the browser
+- Differentiate between States and Props
+  - Props are used to pass data and event handlers down to child components
+  - Props are immutable
+  - States are used to change the component's state
+  - States are mutable
+- What's the arrow function? How to use it?
+  - Arrow functions are more concise than traditional function expressions
+  - Arrow functions are always anonymous
+  - Arrow functions do not have their own this
+  - Arrow functions are not hoisted
+- What's the Fragment in React.js?
+  - Fragments let you group a list of children without adding extra nodes to the DOM
+  - Fragments are a common pattern in React
+- What's the Context in React.js?
+  - Context provides a way to pass data through the component tree without having to pass props down manually at every level, it's the alternative to "prop drilling".
+  - Context is designed to share data that can be considered "global" for a tree of React components
+- What's the Refs in React.js?
+  - Refs provide a way to access DOM nodes or React elements created in the render method
+- What's the key in React.js?
+  - Keys help React identify which items have changed, are added, or are removed
+  - Keys should be given to the elements inside the array to give the elements a stable identity
+  - Keys used within arrays should be unique among their siblings
+- How to modularize code in React.js?
+  - React.js is a component-based library
+  - Components are the building blocks of any React application
+- What's the Higer-Order-Components?
+  - Higher-Order Components (HOCs) are a pattern that emerges from React's compositional nature
+  - HOCs are functions that take a component and return a new component
+  - HOCs can be used to abstract away repetitive tasks
+  - HOCs can be used to compose multiple components to create more complex functionality
+  - HOCs can be used to share common functionality between components
 ### React.js Redux Questions
-### React.js Hooks Questions
+- What're the major problems with MVC framework?
+  - MVC is not a genuine component-based architecture
+- Explain Flux
+  - Flux is an application architecture for React applications
+  - Flux is a pattern that helps keeping your data unidirectional
+  - Flux is a pattern that helps keeping your views and data in sync
+  - Flux is a pattern that helps keeping your logic and views decoupled
+  - Flux is a pattern that helps keeping your components light
+- What's the Redux?
+  - Redux is a predictable state container for JavaScript apps
+  - Redux is a state management tool
+- Redux vs Flux
+  - Flux is a pattern, Redux is a library
+  - Flux has multiple stores, Redux has a single store
+  - Flux has a dispatcher, Redux has no dispatcher
+  - Flux has multiple actions, Redux has a single action
+- What're the three principles Redux follows?
+  - Single source of truth
+  - State is read-only
+  - Changes are made with pure functions
+- What's the meaning of "Single source of truth"?
+  - The state of your whole application is stored in an object tree within a single store
+  - The single state tree makes it easier to keep track of changes over time and debug or inspect the application
+  - Single source of truth also enables powerful developer tools
+- List the components of Redux
+  - Action: a plain object that represents an intention to change the state
+  - Reducer: a function that takes the current state and an action and returns a new state
+  - Store: an object that holds the application's state tree
+  - View: the UI of the application
+- Show the flow of Redux
+  - You call store.dispatch(action)
+  - The Redux store calls the reducer function you gave it
+  - The root reducer may combine the output of multiple reducers into a single state tree
+  - The Redux store saves the complete state tree returned by the root reducer
+- How Actions are defined in Redux?
+  - Actions are payloads of information that send data from your application to your store
+  - Actions are plain JavaScript objects
+  - Actions must have a type property that indicates the type of action being performed
+  - Types should typically be defined as string constants
+  - Once your app is large enough, you may want to move them into a separate module
+  - Actions can contain a payload
+  - Actions are created by action creators
+- Explain the role of Reducer
+  - Reducers take the previous state and an action, and return the next state
+  - Reducers are pure functions
+  - Reducers are the only way to change the state
+  - Reducers must not mutate the state
+- Explain the significance of Store in Redux
+  - In Redux, the entire state of your application is stored in an object tree inside a single store
+  - The only way to change the state tree is to emit an action, an object describing what happened
+  - To specify how the actions transform the state tree, you write pure reducers
+  - You can subscribe to the changes to the data in the store
+  - You can unsubscribe from the changes to the data in the store
+###   React.js Hooks Questions
+- What are React Hooks?
+  - Hooks are functions that let you "hook into" React state and lifecycle features from function components
+  - Hooks don't work inside classes
+  - Hooks let you always use functions instead of having to constantly switch between functions, classes, higher-order components, and render props
+- What are the rules for Hooks?
+  - Only call Hooks at the top level
+  - Only call Hooks from React function components
+- What are the advantages of Hooks?
+  - Hooks allow you to reuse stateful logic without changing your component hierarchy
+  - Hooks allow you to split one component into smaller functions based on what pieces are related
+  - Hooks allow you to share reusable stateful logic between components
+- Any techniques to optimize React App Perfomance from Hooks perspective?
+  - Using useMemo() to memoize expensive functions so that they only recompute when their dependencies change
+- What's the useState()?
+  - useState() is a Hook that lets you add React state to function components
+  - useState() returns a pair: the current state value and a function that lets you update it
+  - useState() is similar to this.setState in a class, except it doesn't merge the old and new state together
+- What's the useContext()?
+  - useContext() is a Hook that allows you to use React context in function components
+  - useContext() accepts a context object and returns the current context value for that context
+  - The current context value is determined by the value prop of the nearest <MyContext.Provider> above the calling component in the tree
+- What's the useRef()?
+  - useRef() is a Hook that returns a mutable ref object whose .current property is initialized to the passed argument (initialValue)
+  - The returned object will persist for the full lifetime of the component
+  - useRef() is handy for keeping any mutable value around similar to how you’d use instance fields in classes
+  - useRef() will not cause a component to re-render when its return value changes
+- What's the useReducer()?
+  - useReducer() is a Hook that accepts a reducer function with the application initial state, returns the current application state, then dispatches a function
+  - useReducer() is usually preferable to useState() when you have complex state logic that involves multiple sub-values or when the next state depends on the previous one
+  - useReducer() also lets you optimize performance for components that trigger deep updates because you can pass dispatch down instead of callbacks
+  - useReducer() will not cause a component to re-render when its return value changes
 ### React.js Router Questions
+- What's the React Router?
+  - React Router is a collection of navigational components that compose declaratively with your application
+  - React Router is a standard library for routing in React
+  - React Router keeps your UI in sync with the URL
 ### React.js Performance Questions
+- What are the ways to improve React.js performance?
+  - Use the production build
+  - Use the key prop correctly
+  - Avoid using indexes as keys
+  - Avoid unnecessary re-renders
+  - Use the React Profiler
+  - Use the shouldComponentUpdate lifecycle method
+  - Use the P
 ### React.js Testing Questions
 ### React.js Security Questions
 
